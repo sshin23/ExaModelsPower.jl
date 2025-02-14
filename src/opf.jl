@@ -5,6 +5,8 @@ function opf_model(
     kwargs...,
 )
 
+
+    pritntln("multi period")
     data, _ = parse_ac_power_data(filename)
     data = convert_data(data, backend)
     
